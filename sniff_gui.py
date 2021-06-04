@@ -129,7 +129,6 @@ icmp_table = sg.Table(
     tooltip='ICMP packets table')
 
 layout = [
-    [sg.Text("Plot test")],
     [sg.Graph((600, 400), (0, 0), (600, 400), key='Graph')],
     [sg.Button("TCP"), sg.Button("UDP"),
      sg.Button("ICMP"), sg.Button("Other")],
